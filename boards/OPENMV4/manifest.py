@@ -34,4 +34,4 @@ require("ml", library="openmv-lib")
 include("$(MPY_DIR)/extmod/asyncio")
 
 # Boot script
-freeze("$(OMV_DIR)/scripts/libraries/", "boot.py")
+freeze ("$(OMV_LIB_DIR)/", "boot.py")
